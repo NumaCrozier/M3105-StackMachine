@@ -52,7 +52,7 @@ public class MachineLauncher
 		Memory programMemory= null;
 		Stack expStack = null;
 		Stack callStack = null;
-
+		
 		try
 		{
 			programMemory = new Memory(0x00000000, 0x00000020);

@@ -28,7 +28,7 @@ public class CPU
 	public final static int DUP		= 0x14;
 	public final static int POP		= 0x15;
 	
-	// TODO something is missing here...
+	IO ioSystem = new IO(System.in, System.out, System.err);
 
 	public void run()
 	{
@@ -36,6 +36,7 @@ public class CPU
 		{
 			while (true)
 			{
+				int opCode;
 				// TODO something is missing here...
 
 				// System.err.print("@" + this.programCounter + ": ");
@@ -175,7 +176,7 @@ public class CPU
 		catch (StackUnderflowException e)
 		{
 			// TODO something is missing here...
-		}		
+		}
 	}
 
 	public void wireToProgramMemory(Memory programMemory) {
