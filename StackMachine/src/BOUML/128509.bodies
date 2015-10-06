@@ -1,0 +1,9 @@
+class Memory
+!!!130557.java!!!	Memory(in i : int, in j : int)
+		// TODO Auto-generated constructor stub
+!!!130685.java!!!	getStartAddress() : int
+		// TODO Auto-generated method stub
+		return 0;
+!!!130813.java!!!	write(in currentAddress : int, inout opCode : Object) : void
+		// TODO Auto-generated method stub
+		

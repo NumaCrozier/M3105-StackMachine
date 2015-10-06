@@ -1,0 +1,10 @@
+class Instruction
+!!!129021.java!!!	Instruction(in operator_p : int, inout adddresses_p : int)
+		this.operator = operator_p;
+		this.addresses = adddresses_p;
+!!!129149.java!!!	getOpCode() : Object
+		// TODO Auto-generated method stub
+		return null;
+!!!129277.java!!!	getParams() : int
+		// TODO Auto-generated method stub
+		return null;

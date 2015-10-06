@@ -1,0 +1,3 @@
+class Stack
+!!!131325.java!!!	Stack(in stackSize_p : int)
+		this.stackSize = stackSize_p;

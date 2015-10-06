@@ -1,0 +1,14 @@
+window_sizes 800 946 104 514 682 82
+diagrams
+  active  classdiagram_ref 128125 // classDiagram_project_cpu
+    877 697 100 4 5 0
+end
+show_stereotypes
+selected 
+  package_ref 128125 // cpu_project
+open
+  
+  package_ref 129021 // stackmachine
+  classview_ref 128253 // unknown
+end
+end

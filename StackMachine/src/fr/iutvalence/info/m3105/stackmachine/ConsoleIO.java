@@ -7,14 +7,14 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintStream;
 
-public class IO
+public class ConsoleIO
 {
 	private BufferedReader in;
 	private PrintStream out;
 	private PrintStream err;
 	
 	
-	public IO(InputStream inStream, OutputStream outStream, OutputStream errStream)
+	public ConsoleIO(InputStream inStream, OutputStream outStream, OutputStream errStream)
 	{
 		super();
 		this.in = new BufferedReader(new InputStreamReader(inStream));

@@ -1,10 +1,5 @@
-package fr.iutvalence.info.m3105.stackmachine;
-
-public class MachineLauncher
-{
-
-	public static void main(String[] args)
-	{
+class MachineLauncher
+!!!130429.java!!!	main(inout args : String) : void
 		/*
 		0x0: 		in	  		// read a value value from IO and push it to exp-stack
 		0x1: 		call 0x5	// call the subroutine at @ of label named "fact"
@@ -52,7 +47,7 @@ public class MachineLauncher
 		Memory programMemory= null;
 		Stack expStack = null;
 		Stack callStack = null;
-		
+
 		try
 		{
 			programMemory = new Memory(0x00000000, 0x00000020);
@@ -64,7 +59,7 @@ public class MachineLauncher
 			// Safely ignore this error, which is not one
 		}
 		
-		ConsoleIO ioSystem = new ConsoleIO(System.in, System.out, System.err);
+		IO ioSystem = new IO(System.in, System.out, System.err);
 		CPU cpu = new CPU();		
 		Machine machine = new Machine(cpu, programMemory, expStack, callStack, ioSystem );
 		try
@@ -77,5 +72,3 @@ public class MachineLauncher
 			System.exit(1);
 		}
 		machine.executeProgram(0x00000000);
-	}
-}

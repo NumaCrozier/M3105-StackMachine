@@ -1,5 +1,5 @@
 format 76
-"classDiagram"
+"bouml_cpu_tp"
   revision 1
   modified_by 125 ""
 
@@ -38,5 +38,9 @@ format 76
 
   mark_for_import
   
-  package_ref 128125 // stackMachine
+  package_ref 128125 // cpu_project
+
+  package_ref 128253 // StackMachine
+
+  package_ref 129149 // unknown
 end
